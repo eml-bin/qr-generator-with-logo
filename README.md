@@ -1,6 +1,6 @@
 # QR Generator with Logo
 
-Python script that generates QR Code with a custom logo
+Python script that generates QR Code 🤳 with a custom logo 
 
 ## Requirements
 - Docker
@@ -8,7 +8,7 @@ Python script that generates QR Code with a custom logo
 
 ## Instructions
 
-1. Check the environment variables in docker-compose.yml for customization
+1. Check the environment variables in `docker-compose.yml` for customization
 
 ## Commands
 
