@@ -1,0 +1,18 @@
+version: '3'
+services:
+  qr_generator:
+    container_name: qr_service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./qr-output:/app/output
+    # environment:
+    #   - QR_VALUE=https://bio.eml.run
+    #   - LOGO_FILE_NAME=logo.png
+    #   - QR_COLOR=black
+    #   - QR_BACKGROUND_COLOR=white
+    #   - QR_PADDING=2
+    #   - QR_SIZE=15
+    #   - LOGO_WIDTH=80
+    
